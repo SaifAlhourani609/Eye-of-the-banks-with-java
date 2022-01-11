@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:background="@color/design_default_color_background"
+    android:orientation="vertical"
+    tools:context=".Irbid_LIST_BAE">
+
+    <TextView
+
+        android:textSize="30dp"
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textColor="@color/graydark"
+        android:text="Bank al Etihad"></TextView>
+
+
+    <ImageView
+
+        android:layout_marginBottom="10dp"
+
+        android:layout_width="wrap_content"
+        android:layout_height="124dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        app:srcCompat="@drawable/at7ad" />
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fillViewport="false">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <Button
+                android:id="@+id/e1"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="3dp"
+                android:gravity="center"
+                android:onClick="main"
+                android:text="Irbid main branch"
+
+                android:textStyle="bold"
+                android:textColor="@color/white"
+                app:backgroundTint="#F0E40707" />
+            <Button
+                android:id="@+id/e2"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="3dp"
+                android:gravity="center"
+                android:onClick="New"
+                android:text="New Irbid Complex, Aydoun St."
+
+                android:textStyle="bold"
+                android:textColor="@color/white"
+                app:backgroundTint="#F0E40707" />
+            <Button
+                android:id="@+id/e3"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="3dp"
+                android:gravity="center"
+                android:onClick="King"
+                android:text="King Abdullah Bin، Raya Bent Al-Hussein St"
+
+                android:textStyle="bold"
+                android:textColor="@color/white"
+                app:backgroundTint="#F0E40707" />
+            <Button
+                android:id="@+id/e4"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="3dp"
+                android:gravity="center"
+                android:onClick="ATM"
+                android:text="(ATM) Irbid Mall"
+
+                android:textStyle="bold"
+                android:textColor="@color/white"
+                app:backgroundTint="#F0E40707" />
+            <Button
+                android:id="@+id/e5"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="3dp"
+                android:gravity="center"
+                android:onClick="Houson"
+                android:text="Irbid,Houson Street"
+
+                android:textStyle="bold"
+                android:textColor="@color/white"
+                app:backgroundTint="#F0E40707" />
+            <Button
+                android:id="@+id/e6"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="3dp"
+                android:gravity="center"
+                android:onClick="City"
+                android:text="Irbid City Center"
+
+                android:textStyle="bold"
+                android:textColor="@color/white"
+                app:backgroundTint="#F0E40707" />
+
+        </LinearLayout>
+    </ScrollView>
+
+
+
+</LinearLayout>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

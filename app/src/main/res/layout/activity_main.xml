@@ -1,0 +1,138 @@
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/design_default_color_background"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="744dp">
+
+                <TextView
+
+                    android:id="@+id/tv"
+                    android:layout_width="411dp"
+                    android:layout_height="40dp"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="71dp"
+                    android:background="#50FF0000"
+                    android:fontFamily="@font/cocon_next_arabic_light"
+                    android:gravity="center"
+                    android:text="Welcome To Eye Of The Banks"
+                    android:textColor="@color/graydark"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <pl.droidsonroids.gif.GifImageView
+                    android:id="@+id/gifImageView"
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="20dp"
+                    android:src="@drawable/rred"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/tv" />
+
+                <TextView
+
+                    android:id="@+id/url"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="15dp"
+                    android:gravity="center"
+                    android:padding="10dp"
+                    android:text="You must read some of the policies related to the application before starting or even using"
+                    android:textColor="@color/graydark"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/gifImageView">
+
+                </TextView>
+
+                <Button
+                    android:id="@+id/b1"
+                    android:layout_width="300dp"
+                    android:layout_height="60dp"
+                    android:layout_gravity="center"
+                    android:layout_marginStart="55dp"
+                    android:layout_marginTop="25dp"
+
+                    android:layout_marginEnd="56dp"
+                    android:background="@drawable/activity_button2"
+                    android:shadowDx="2"
+
+                    android:shadowDy="2"
+                    android:shadowRadius="10"
+                    android:text="let's start"
+                    android:textColor="@color/graydark"
+                    android:textSize="17sp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/url" />
+
+                <Button
+
+                    android:id="@+id/b2"
+                    android:layout_width="300dp"
+                    android:layout_height="60dp"
+                    android:layout_gravity="center"
+                    android:layout_marginStart="55dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginEnd="56dp"
+                    android:background="@drawable/activity_button2"
+                    android:backgroundTint="@color/graydark"
+                    android:onClick="iaa"
+                    android:shadowDx="2"
+
+                    android:shadowDy="2"
+                    android:shadowRadius="10"
+                    android:text="Information about the application"
+                    android:textColor="@color/graydark"
+                    android:textSize="13sp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/b1" />
+
+                <Button
+                    android:layout_width="300dp"
+                    android:layout_height="60dp"
+                    android:layout_gravity="center"
+                    android:layout_marginStart="55dp"
+
+                    android:layout_marginTop="20dp"
+                    android:layout_marginEnd="56dp"
+                    android:background="@drawable/buttonshape1"
+                    android:onClick="sendemail"
+
+                    android:shadowDx="2"
+                    android:shadowDy="2"
+                    android:shadowRadius="10"
+                    android:text="SEND NOTES"
+                    android:textColor="@color/graydark"
+                    android:textSize="17sp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/b2" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

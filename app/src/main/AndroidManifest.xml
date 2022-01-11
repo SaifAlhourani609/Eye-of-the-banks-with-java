@@ -1,0 +1,410 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.eyeofthebanks">
+    <!--
+         The ACCESS_COARSE/FINE_LOCATION permissions are not required to use
+         Google Maps Android API v2, but you must specify either coarse or fine
+         location permissions for the "MyLocation" functionality.
+    -->
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.EyeOfTheBanks">
+        <activity android:name=".splash">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Maan_LIST_sgbj" />
+        <activity android:name=".Al_Aqaba_LIST_sgbj" />
+        <activity android:name=".Maan_LIST_cab" />
+        <activity android:name=".Al_Aqaba_LIST_cab" />
+        <activity android:name=".Al_Tafilah_LIST_cab" />
+        <activity android:name=".Madaba_LIST_cab" />
+        <activity android:name=".Al_Balqa_LIST_cab" />
+        <activity android:name=".Jarash_LIST_cab" />
+        <activity android:name=".Ajlun_LIST_cab" />
+        <activity android:name=".Al_Karak_LIST_cab" />
+        <activity android:name=".al_balqa_iiab" />
+        <activity android:name=".amman_rafidaen" />
+        <activity android:name=".AB" />
+        <activity android:name=".CAB" />
+        <activity android:name=".BAE" />
+        <activity android:name=".Maan_LIST_BAE" />
+        <activity android:name=".Al_Aqaba_LIST_BAE" />
+        <activity android:name=".Al_Tafilah_LIST_BAE" />
+        <activity android:name=".Madaba_LIST_BAE" />
+        <activity android:name=".Al_Balqa_LIST_BAE" />
+        <activity android:name=".Jarash_LIST_BAE" />
+        <activity android:name=".Ajlun_LIST_BAE" />
+        <activity android:name=".Al_Karak_LIST_BAE" />
+        <activity android:name=".Irbid_LIST_BAE" />
+        <activity android:name=".Az_Zarqa_LIST_BAE" />
+        <activity android:name=".Al_Mafraq_LIST_BAE" />
+        <activity android:name=".AMMAN_LIST_BAE" /> <!-- لمياء -->
+        <activity android:name=".al_balqa_hb" />
+        <activity android:name=".maan_hb" />
+        <activity android:name=".al_aqaba_hb" />
+        <activity android:name=".al_tafilh_hb" />
+        <activity android:name=".madaba_hb" />
+        <activity android:name=".jarash_hb" />
+        <activity android:name=".ajlun_hb" />
+        <activity android:name=".al_karak_hb" />
+        <activity android:name=".irbid_hb" />
+        <activity android:name=".az_zarqa_hb" />
+        <activity android:name=".mafraq_hb" />
+        <activity android:name=".amman_hb" />
+        <activity android:name=".Housing_Bank" />
+        <activity android:name=".al_balqa_jcb" />
+        <activity android:name=".al_aqaba_jcb" />
+        <activity android:name=".madaba_jcb" />
+        <activity android:name=".irbid_jcb" />
+        <activity android:name=".az_zarqa_jcb" />
+        <activity android:name=".mafraq_jcb" />
+        <activity android:name=".amman_jcb" />
+        <activity android:name=".Jordan_Commercial_Bank" />
+        <activity android:name=".al_balqa_boj" />
+        <activity android:name=".al_aqaba_boj" />
+        <activity android:name=".maan_boj" />
+        <activity android:name=".al_ajlun_boj" />
+        <activity android:name=".al_karak_boj" />
+        <activity android:name=".irbid_boj" />
+        <activity android:name=".az_zarqa_boj" />
+        <activity android:name=".mafraq_boj" />
+        <activity android:name=".amman_boj" />
+        <activity android:name=".bank_of_jordan" />
+        <activity android:name=".irbid_ahli" />
+        <activity android:name=".al_karak_jib" />
+        <activity android:name=".mafraq_ahli" />
+        <activity android:name=".jarash_ahli" />
+        <activity android:name=".al_aqaba_ahli" />
+        <activity android:name=".maan_ahli" />
+        <activity android:name=".al_tafilh_ahli" />
+        <activity android:name=".al_karak_ahli" />
+        <activity android:name=".madaba_ahli" />
+        <activity android:name=".az_zarqa_ahli" />
+        <activity android:name=".al_balqa_ahli" />
+        <activity android:name=".amman_ahli" />
+        <activity android:name=".ahli_bank" />
+        <activity android:name=".al_aqaba_capital" />
+        <activity android:name=".irbid_capital" />
+        <activity android:name=".az_zarqa_capital" />
+        <activity android:name=".amman_capital" />
+        <activity android:name=".Islamic_International_Arab_Bank" />
+        <activity android:name=".capital" />
+        <activity android:name=".amman_nbd" />
+        <activity android:name=".az_zarqa_rb" />
+        <activity android:name=".irbid_rb" />
+        <activity android:name=".amman_rb" />
+        <activity android:name=".maan_jib" />
+        <activity android:name=".al_aqaba_jib" />
+        <activity android:name=".al_tafilah_jib" />
+        <activity android:name=".madaba_jib" />
+        <activity android:name=".al_balqa_jib" />
+        <activity android:name=".jarash_jib" />
+        <activity android:name=".ajlun_jib" />
+        <activity android:name=".irbid_jib" />
+        <activity android:name=".az_zarqa_jib" />
+        <activity android:name=".mafraq_jib" />
+        <activity android:name=".amman_jib" />
+        <activity android:name=".al_aqaba_sib" />
+        <activity android:name=".al_balqa_sib" />
+        <activity android:name=".jarash_sib" />
+        <activity android:name=".irbid_sib" />
+        <activity android:name=".az_zarqa_sib" />
+        <activity android:name=".amman_sib" />
+        <activity android:name=".activitye" />
+        <activity android:name=".ajlun_iiab" />
+        <activity android:name=".maan_iiab" />
+        <activity android:name=".al_aqaba_iiab" />
+        <activity android:name=".jarash_iiab" />
+        <activity android:name=".irbid_iiab" />
+        <activity android:name=".az_zarqa_iiab" />
+        <activity android:name=".mafraq_iiab" />
+        <activity android:name=".amman_iiab" />
+        <activity android:name=".sorry" />
+        <activity android:name=".amman_ab" />
+        <activity android:name=".az_zarqa_blom" />
+        <activity android:name=".amman_blom" />
+        <activity android:name=".amman_nbk" />
+        <activity android:name=".amman_cb" />
+        <activity android:name=".az_zarqa_ealb" />
+        <activity android:name=".al_mafraq_ealb" />
+        <activity android:name=".irbid_ealb" />
+        <activity android:name=".al_aqaba_ealb" />
+        <activity android:name=".about_the_bank" />
+        <activity android:name=".amman_ealb" />
+        <activity android:name=".amman_sc" />
+        <activity android:name=".Al_Rajhi_Bank" />
+        <activity android:name=".jordan_islamic_bank" />
+        <activity android:name=".National_Bank_of_Abu_Dhabi" />
+        <activity android:name=".blom_Bank" />
+        <activity android:name=".Rafidain_Bank" />
+        <activity android:name=".Egyptian_Arab_Land_Bank" />
+        <activity android:name=".Safwa_Islamic_Bank" />
+        <activity android:name=".audi_bank" />
+        <activity android:name=".National_Bank_of_Kuwait" />
+        <activity android:name=".Citi_Bank" />
+        <activity android:name=".Standard_Chartered" />
+        <activity android:name=".Irbid_LIST_cab" />
+        <activity android:name=".Az_Zarqa_LIST_cab" />
+        <activity android:name=".Al_Mafraq_LIST_cab" />
+        <activity android:name=".AMMAN_LIST_cab" />
+        <activity android:name=".Maan_LIST_cb" />
+        <activity android:name=".Al_Aqaba_LIST_cb" />
+        <activity android:name=".Al_Tafilah_LIST_cb" />
+        <activity android:name=".Madaba_LIST_cb" />
+        <activity android:name=".Al_Balqa_LIST_cb" />
+        <activity android:name=".Jarash_LIST_cb" />
+        <activity android:name=".Ajlun_LIST_cb" />
+        <activity android:name=".Al_Karak_LIST_cb" />
+        <activity android:name=".Irbid_LIST_cb" />
+        <activity android:name=".Az_Zarqa_LIST_cb" />
+        <activity android:name=".Al_Mafraq_LIST_cb" />
+        <activity android:name=".AMMAN_LIST_cb" />
+        <activity android:name=".sgbj" />
+        <activity android:name=".Al_Tafilah_LIST_sgbj" />
+        <activity android:name=".Madaba_LIST_sgbj" />
+        <activity android:name=".Al_Balqa_LIST_sgbj" />
+        <activity android:name=".Jarash_LIST_sgbj" />
+        <activity android:name=".Ajlun_LIST_sgbj" />
+        <activity android:name=".Al_Karak_LIST_sgbj" />
+        <activity android:name=".Irbid_LIST_sgbj" />
+        <activity android:name=".Az_Zarqa_LIST_sgbj" />
+        <activity android:name=".Al_Mafraq_LIST_sgbj" />
+        <activity android:name=".AMMAN_LIST_sgbj" />
+        <activity android:name=".ajib" />
+        <activity android:name=".Maan_LIST_ajib" />
+        <activity android:name=".Al_Aqaba_LIST_ajib" />
+        <activity android:name=".Al_Tafilah_LIST_ajib" />
+        <activity android:name=".Madaba_LIST_ajib" />
+        <activity android:name=".Al_Balqa_LIST_ajib" />
+        <activity android:name=".Jarash_LIST_ajib" />
+        <activity android:name=".Ajlun_LIST_iajib" />
+        <activity android:name=".Al_Karak_LIST_ajib" />
+        <activity android:name=".Irbid_LIST_ajib" />
+        <activity android:name=".Az_Zarqa_LIST_ajib" />
+        <activity android:name=".Al_Mafraq_LIST_ajib" />
+        <activity android:name=".AMMAN_LIST_ajib" />
+        <activity android:name=".ib" />
+        <activity android:name=".Maan_LIST_ib" />
+        <activity android:name=".Al_Aqaba_LIST_ib" />
+        <activity android:name=".Al_Tafilah_LIST_ib" />
+        <activity android:name=".Madaba_LIST_ib" />
+        <activity android:name=".Al_Balqa_LIST_ib" />
+        <activity android:name=".Jarash_LIST_ib" />
+        <activity android:name=".Ajlun_LIST_ib" />
+        <activity android:name=".Al_Karak_LIST_ib" />
+        <activity android:name=".Irbid_LIST_ib" />
+        <activity android:name=".Az_Zarqa_LIST_ib" />
+        <activity android:name=".Al_Mafraq_LIST_ib" />
+        <activity android:name=".AMMAN_LIST_ib" />
+        <activity android:name=".Maan_LIST_jkb" />
+        <activity android:name=".Al_Aqaba_LIST_jkb" />
+        <activity android:name=".Al_Tafilah_LIST_jkb" />
+        <activity android:name=".Madaba_LIST_jkb" />
+        <activity android:name=".Al_Balqa_LIST_jkb" />
+        <activity android:name=".Jarash_LIST_jkb" />
+        <activity android:name=".Ajlun_LIST_jkb" />
+        <activity android:name=".Al_Karak_LIST_jkb" />
+        <activity android:name=".Irbid_LIST_jkb" />
+        <activity android:name=".Az_Zarqa_LIST_jkb" />
+        <activity android:name=".Al_Mafraq_LIST_jkb" />
+        <activity android:name=".AMMAN_LIST_jkb" />
+        <activity android:name=".jkb" />
+        <activity android:name=".abc" />
+        <activity android:name=".Maan_LIST_ABC" />
+        <activity android:name=".Al_Aqaba_LIST_ABC" />
+        <activity android:name=".Al_Tafilah_LIST_ABC" />
+        <activity android:name=".Madaba_LIST_ABC" />
+        <activity android:name=".Al_Balqa_LIST_ABC" />
+        <activity android:name=".Jarash_LIST_ABC" />
+        <activity android:name=".Ajlun_LIST_ABC" />
+        <activity android:name=".Al_Karak_LIST_ABC" />
+        <activity android:name=".Irbid_LIST_ABC" />
+        <activity android:name=".Az_Zarqa_LIST_ABC" />
+        <activity android:name=".Al_Mafraq_LIST_ABC" />
+        <activity android:name=".AMMAN_LIST_ABC" />
+        <!--
+             The API key for Google Maps-based APIs is defined as a string resource.
+             (See the file "res/values/google_maps_api.xml").
+             Note that the API key is linked to the encryption key used to sign the APK.
+             You need a different API key for each encryption key, including the release key that is used to
+             sign the APK for publishing.
+             You can define the keys for the debug and release targets in src/debug/ and src/release/.
+        -->
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="@string/google_maps_key" />
+
+        <activity
+            android:name=".Russeifa"
+            android:label="@string/title_activity_russeifa" />
+        <activity
+            android:name=".Arab_Bank_Hashemite_University"
+            android:label="@string/title_activity_arab__bank__hashemite__university" />
+        <activity
+            android:name=".Arab_Bank_ATM_Irbid"
+            android:label="@string/title_activity_arab__bank__a_t_m__irbid" />
+        <activity
+            android:name=".ATM__Irbid"
+            android:label="@string/title_activity_a_t_m___irbid" />
+        <activity
+            android:name=".near_Thaqafa_Circle_Irbid"
+            android:label="@string/title_activity_near__thaqafa__circle__irbid" />
+        <activity
+            android:name=".Arab_Bank_Irbid2"
+            android:label="@string/title_activity_arab__bank__irbid2" />
+        <activity
+            android:name=".Arab_Bank_Irbid"
+            android:label="@string/title_activity_arab__bank__irbid" />
+        <activity
+            android:name=".Arab_Bank.Consolidated_Consultants_Engineering"
+            android:label="@string/title_activity_consolidated__consultants__engineering" />
+        <activity
+            android:name=".layout.Sahat_Al_Malek_Faisal_amman"
+            android:label="@string/title_activity_sahat__al__malek__faisal_amman" />
+        <activity
+            android:name=".Arab_Bank.jadara_university_irbid"
+            android:label="@string/title_activity_jadara_university_irbid" />
+        <activity
+            android:name=".Arab_Bank.Al_Hashimi_Al_Mafraq"
+            android:label="@string/title_activity_al__hashimi__al__mafraq" />
+        <activity
+            android:name=".Arab_Bank.Prince_Mohammad_Al_Mafraq"
+            android:label="@string/title_activity_prince__mohammad__al__mafraq" />
+        <activity android:name=".Maan_LIST" />
+        <activity android:name=".Al_Aqaba_LIST" />
+        <activity android:name=".Al_Tafilah_LIST" />
+        <activity android:name=".Madaba_LIST" />
+        <activity android:name=".Al_Balqa_LIST" />
+        <activity android:name=".Jarash_LIST" />
+        <activity android:name=".Ajlun_LIST" />
+        <activity android:name=".Al_Karak_LIST" />
+        <activity android:name=".Irbid_LIST" />
+        <activity android:name=".Az_Zarqa_LIST" />
+        <activity android:name=".Al_Mafraq_LIST" />
+        <activity android:name=".AMMAN_LIST" />
+        <activity
+            android:name=".Arab_Bank.ammanj"
+            android:label="@string/title_activity_ammanj" />
+        <activity
+            android:name=".Arab_Bank.ammani"
+            android:label="@string/title_activity_ammani" />
+        <activity
+            android:name=".Arab_Bank.ammanh"
+            android:label="@string/title_activity_ammanh" />
+        <activity
+            android:name=".Arab_Bank.ammang"
+            android:label="@string/title_activity_ammang" />
+        <activity
+            android:name=".Arab_Bank.ammanf"
+            android:label="@string/title_activity_ammanf" />
+        <activity
+            android:name=".Arab_Bank.ammane"
+            android:label="@string/title_activity_ammane" />
+        <activity
+            android:name=".Arab_Bank.ammand"
+            android:label="@string/title_activity_ammand" />
+        <activity
+            android:name=".Arab_Bank.ammanc"
+            android:label="@string/title_activity_ammanc" />
+        <activity
+            android:name=".Arab_Bank.ammanb"
+            android:label="@string/title_activity_ammanb" />
+        <activity
+            android:name=".Arab_Bank.ammana"
+            android:label="@string/title_activity_ammana" />
+        <activity
+            android:name=".Arab_Bank.Bassam_Qaraqeh"
+            android:label="@string/title_activity_bassam__qaraqeh" />
+        <activity
+            android:name=".Arab_Bank.Madina_AlMunawwara"
+            android:label="@string/title_activity_madina__al_munawwara" />
+        <activity
+            android:name=".Arab_Bank.Sayeda_Zainab"
+            android:label="@string/title_activity_sayeda__zainab" />
+        <activity
+            android:name=".Arab_Bank.russifah"
+            android:label="@string/title_activity_russifah" />
+        <activity
+            android:name=".Arab_Bank.Bab_Al_Wad"
+            android:label="@string/title_activity_bab__al__wad" />
+        <activity android:name=".activitye" />
+        <activity
+            android:name=".Arab_Bank.Huwaiti"
+            android:label="@string/title_activity_huwaiti" />
+        <activity
+            android:name=".Arab_Bank.Al_Sultan"
+            android:label="@string/title_activity_al__sultan" />
+        <activity
+            android:name=".Arab_Bank.al_hashme"
+            android:label="@string/title_activity_al_hashme" />
+        <activity
+            android:name=".Arab_Bank.al_zarqa"
+            android:label="@string/title_activity_al_zarqa" />
+        <activity
+            android:name=".Arab_Bank.meccamall"
+            android:label="@string/title_activity_meccamall" />
+        <activity
+            android:name=".Arab_Bank.the_all_arab_bank"
+            android:label="@string/title_activity_the_all_arab_bank" />
+        <activity
+            android:name=".Arab_Bank.AMMAN4"
+            android:label="@string/title_activity_a_m_m_a_n4" />
+        <activity
+            android:name=".Arab_Bank.Princess_Raya_Amman"
+            android:label="@string/title_activity_princess__raya__amman" />
+        <activity
+            android:name=".Arab_Bank.Amman_ATM3"
+            android:label="@string/title_activity_amman__a_t_m3" />
+        <activity
+            android:name=".Arab_Bank.Amman_ATM2"
+            android:label="@string/title_activity_amman__a_t_m2" />
+        <activity
+            android:name=".Arab_Bank.Madaba"
+            android:label="@string/title_activity_madaba" />
+        <activity
+            android:name=".Arab_Bank.Arab_Bank_Amman2"
+            android:label="@string/title_activity_arab__bank__amman2" />
+        <activity
+            android:name=".Arab_Bank.ATM_Amman"
+            android:label="@string/title_activity_a_t_m__amman" />
+        <activity
+            android:name=".Arab_Bank.Arab_Bank_Amman"
+            android:label="@string/title_activity_arab__bank__amman" />
+        <activity
+            android:name=".Arab_Bank.Arab_Bank"
+            android:label="@string/title_activity_arab__bank" />
+        <activity android:name=".activityBaE" />
+        <activity android:name=".activitySGDBJ" />
+        <activity android:name=".activityHB" />
+        <activity android:name=".activityJAB" />
+        <activity android:name=".activityJKB" />
+        <activity android:name=".activityIB" />
+        <activity android:name=".activityAJIB" />
+        <activity android:name=".activityCAB" />
+        <activity android:name=".activityABC" />
+        <activity android:name=".activitycc" />
+        <activity android:name=".activityd" />
+        <activity
+            android:name=".Central_Bank_of_Jordan.Central_Bank_of_Jordan"
+            android:label="@string/title_activity_central__bank_of__jordan" />
+        <activity
+            android:name=".GpsAlAhli.AMMAN"
+            android:label="@string/title_activity_a_m_m_a_n" />
+        <activity android:name=".activityc" />
+        <activity android:name=".activityb" />
+        <activity android:name=".MainActivity">
+
+        </activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AMMAN_LIST_ajib"
+    android:orientation="vertical">
+    <TextView
+
+        android:textSize="20dp"
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textColor="@color/graydark"
+        android:text="Arab Jordan Investment Bank (AJIB)"></TextView>
+
+
+    <ImageView
+
+        android:layout_marginBottom="10dp"
+
+        android:layout_width="wrap_content"
+        android:layout_height="124dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        app:srcCompat="@drawable/logop_ajib" />
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fillViewport="false">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="3dp"
+                android:gravity="center"
+                android:text="Yajouz St 107"
+                android:onClick="Yajouz"
+                android:textStyle="bold"
+                android:textColor="@color/white"
+                app:backgroundTint="#F0E40707" />
+            <Button
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="3dp"
+                android:gravity="center"
+                android:text="Zahran St 200"
+                android:onClick="Zahran"
+                android:textStyle="bold"
+                android:textColor="@color/white"
+                app:backgroundTint="#F0E40707" />
+
+            <Button
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="3dp"
+                android:gravity="center"
+                android:text="Khaled Ben Al-Walid St. 173"
+                android:onClick="Khaled_Ben"
+                android:textStyle="bold"
+                android:textColor="@color/white"
+                app:backgroundTint="#F0E40707" />
+            <Button
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="3dp"
+                android:gravity="center"
+                android:text="Jabal Arafat St 51"
+                android:onClick="Jabal"
+                android:textStyle="bold"
+                android:textColor="@color/white"
+                app:backgroundTint="#F0E40707" />
+
+            <Button
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="3dp"
+                android:gravity="center"
+                android:text="Prince El Hasan St 288"
+                android:onClick="Prince"
+                android:textStyle="bold"
+                android:textColor="@color/white"
+                app:backgroundTint="#F0E40707" />
+
+            <Button
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="3dp"
+                android:gravity="center"
+                android:text="King Abdullah II St 295"
+                android:onClick="King_Abdullah"
+                android:textStyle="bold"
+                android:textColor="@color/white"
+                app:backgroundTint="#F0E40707" />
+            <Button
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="3dp"
+                android:gravity="center"
+                android:text="Kinza Center"
+                android:onClick="Kinza_Center"
+                android:textStyle="bold"
+                android:textColor="@color/white"
+                app:backgroundTint="#F0E40707" />
+
+            <Button
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="3dp"
+                android:gravity="center"
+                android:text="Abdali Mall "
+                android:onClick="Abdali_Mall"
+                android:textStyle="bold"
+                android:textColor="@color/white"
+                app:backgroundTint="#F0E40707" />
+            <Button
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="3dp"
+                android:gravity="center"
+                android:text="TAJ Lifestyle Center"
+                android:onClick="TAJ"
+                android:textStyle="bold"
+                android:textColor="@color/white"
+                app:backgroundTint="#F0E40707" />
+            <Button
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="3dp"
+                android:gravity="center"
+                android:text="Al Madinah Al Munawarah St 204"
+                android:onClick="Madinah"
+                android:textStyle="bold"
+                android:textColor="@color/white"
+                app:backgroundTint="#F0E40707" />
+            <Button
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="3dp"
+                android:gravity="center"
+                android:text="Husni Soubar St 14"
+                android:onClick="Husni"
+                android:textStyle="bold"
+                android:textColor="@color/white"
+                app:backgroundTint="#F0E40707" />
+
+
+
+        </LinearLayout>
+    </ScrollView>
+
+
+
+</LinearLayout>

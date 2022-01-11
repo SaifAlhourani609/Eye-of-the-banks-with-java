@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:background="@color/design_default_color_background"
+    android:orientation="vertical"
+    tools:context=".activityBaE">
+
+    <TextView
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="5dp"
+        android:gravity="center"
+        android:text="Bank al Etihad"
+        android:textColor="@color/graydark"
+        android:textSize="30dp"
+        android:textStyle="bold"></TextView>
+
+
+    <ImageView
+
+        android:layout_width="wrap_content"
+
+        android:layout_height="124dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        app:srcCompat="@drawable/at7ad" />
+
+    <Button
+        android:layout_width="250dp"
+
+        android:layout_height="35dp"
+        android:layout_gravity="center"
+        android:onClick="WEBSITE"
+        android:text="WEBSITE"
+
+        android:textColor="@android:color/holo_red_dark"
+        android:textStyle="bold"
+        app:backgroundTint="#AEF6C7C7" />
+
+    <Button
+        android:layout_width="250dp"
+
+        android:layout_height="35dp"
+        android:layout_gravity="center"
+        android:onClick="about_the_bank_BAE"
+        android:text="About the Bank"
+
+        android:textColor="@android:color/holo_red_dark"
+        android:textStyle="bold"
+        app:backgroundTint="#AEF6C7C7" />
+
+    <Button
+        android:layout_width="250dp"
+
+        android:layout_height="35dp"
+        android:layout_gravity="center"
+        android:onClick="Back"
+        android:text="Back"
+        android:textColor="@android:color/holo_red_dark"
+        android:textStyle="bold"
+        app:backgroundTint="#AEF6C7C7" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="5dp"
+        android:gravity="center"
+        android:text="List of governorates of Jordan"
+        android:textColor="@android:color/black"
+        android:textSize="15dp"
+        android:textStyle="bold" />
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fillViewport="false">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <Button
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="3dp"
+                android:gravity="center"
+                android:onClick="AMMAN"
+                android:text="Amman"
+
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                app:backgroundTint="#F0E40707" />
+
+            <Button
+                android:layout_width="250dp"
+
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="3dp"
+                android:gravity="center"
+                android:onClick="Al_Mafraq"
+                android:text="Al Mafraq"
+
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                app:backgroundTint="#F0E40707" />
+
+            <Button
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="3dp"
+                android:gravity="center"
+                android:onClick="Az_Zarqa"
+                android:text="Az Zarqa'"
+
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                app:backgroundTint="#F0E40707" />
+
+            <Button
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="3dp"
+                android:gravity="center"
+                android:onClick="Irbid"
+                android:text="Irbid"
+                android:textColor="@color/white"
+
+                android:textStyle="bold"
+                app:backgroundTint="#F0E40707" />
+
+            <Button
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="3dp"
+                android:gravity="center"
+                android:onClick="Al_Karak"
+                android:text="Al Karak"
+
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                app:backgroundTint="#F0E40707" />
+
+            <Button
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="3dp"
+                android:gravity="center"
+                android:onClick="Ajlun"
+                android:text="Ajlun"
+
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                app:backgroundTint="#F0E40707" />
+
+            <Button
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="3dp"
+                android:gravity="center"
+                android:onClick="Jarash"
+                android:text="Jarash"
+
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                app:backgroundTint="#F0E40707" />
+
+            <Button
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="3dp"
+                android:gravity="center"
+                android:onClick="Al_Balqa"
+                android:text="Al Balqa'"
+
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                app:backgroundTint="#F0E40707" />
+
+            <Button
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="3dp"
+                android:gravity="center"
+                android:onClick="Madaba"
+                android:text="Madaba"
+
+                android:textColor="@color/white"
+
+                android:textStyle="bold"
+                app:backgroundTint="#F0E40707" />
+
+            <Button
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="3dp"
+                android:gravity="center"
+                android:onClick="Al_Tafilah"
+                android:text="Al Tafilah"
+
+                android:textColor="@color/white"
+
+                android:textStyle="bold"
+                app:backgroundTint="#F0E40707" />
+
+            <Button
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="3dp"
+                android:gravity="center"
+                android:onClick="Al_Aqaba"
+                android:text="Al Aqaba"
+
+                android:textColor="@color/white"
+
+                android:textStyle="bold"
+                app:backgroundTint="#F0E40707" />
+
+            <Button
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="3dp"
+                android:gravity="center"
+                android:onClick="Maan"
+                android:text="Ma'an"
+
+                android:textColor="@color/white"
+
+                android:textStyle="bold"
+                app:backgroundTint="#F0E40707" />
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>
+

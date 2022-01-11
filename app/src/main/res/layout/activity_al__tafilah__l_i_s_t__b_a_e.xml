@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:background="@color/design_default_color_background"
+    android:orientation="vertical"
+    tools:context=".Al_Tafilah_LIST_BAE">
+
+    <TextView
+
+        android:textSize="30dp"
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textColor="@color/graydark"
+        android:text="Bank al Etihad"></TextView>
+
+
+    <ImageView
+
+        android:layout_marginBottom="10dp"
+
+        android:layout_width="wrap_content"
+        android:layout_height="124dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        app:srcCompat="@drawable/at7ad" />
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fillViewport="false">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <pl.droidsonroids.gif.GifImageView
+                android:layout_width="match_parent"
+                android:layout_height="239dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="15dp"
+                android:src="@drawable/sory1" />
+
+            <TextView
+
+                android:textSize="20dp"
+                android:layout_marginTop="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:textColor="@color/graydark"
+                android:text="There are no branches in this county"/>
+
+
+
+        </LinearLayout>
+    </ScrollView>
+
+
+
+</LinearLayout>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

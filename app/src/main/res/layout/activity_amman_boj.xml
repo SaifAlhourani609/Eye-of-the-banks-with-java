@@ -1,0 +1,420 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".amman_boj"
+    tools:ignore="UseCompoundDrawables">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="5dp"
+        android:gravity="center"
+        android:text="@string/Bank_Of_Jordan"
+        android:textColor="#D50000"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="124dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:contentDescription="@string/Bank_Of_Jordan"
+        app:srcCompat="@drawable/boj_logo" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fillViewport="false">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <Button
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="3dp"
+                android:gravity="center"
+                android:onClick="main_boj"
+                android:text="@string/The_main_branch"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                app:backgroundTint="@android:color/holo_red_dark"
+                tools:ignore="OnClick,UsingOnClickInXml" />
+
+            <Button
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="3dp"
+                android:gravity="center"
+                android:onClick="jabal_boj"
+                android:text="@string/Jabal_Al_Hussein_branch"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                app:backgroundTint="@android:color/holo_red_dark"
+                tools:ignore="OnClick,UsingOnClickInXml" />
+
+            <Button
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="3dp"
+                android:gravity="center"
+                android:onClick="downtown_boj"
+                android:text="@string/Downtown_branch"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                app:backgroundTint="@android:color/holo_red_dark"
+                tools:ignore="OnClick,UsingOnClickInXml" />
+
+            <Button
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="3dp"
+                android:gravity="center"
+                android:onClick="marka_boj"
+                android:text="@string/Marka_branch"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                app:backgroundTint="@android:color/holo_red_dark"
+                tools:ignore="OnClick,UsingOnClickInXml" />
+
+            <Button
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="3dp"
+                android:gravity="center"
+                android:onClick="seir_boj"
+                android:text="@string/Wadi_As_Seir_branch"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                app:backgroundTint="@android:color/holo_red_dark"
+                tools:ignore="OnClick,UsingOnClickInXml" />
+
+            <Button
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="3dp"
+                android:gravity="center"
+                android:onClick="sweileh_boj"
+                android:text="@string/Sweileh_branch"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                app:backgroundTint="@android:color/holo_red_dark"
+                tools:ignore="OnClick,UsingOnClickInXml" />
+
+            <Button
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="3dp"
+                android:gravity="center"
+                android:onClick="st_boj"
+                android:text="@string/st_Cir_branch"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                app:backgroundTint="@android:color/holo_red_dark"
+                tools:ignore="OnClick,UsingOnClickInXml" />
+
+            <Button
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="3dp"
+                android:gravity="center"
+                android:onClick="rd_boj"
+                android:text="@string/rd_Cir_atm"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                app:backgroundTint="@android:color/holo_red_dark"
+                tools:ignore="OnClick,UsingOnClickInXml" />
+
+            <Button
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="3dp"
+                android:gravity="center"
+                android:onClick="quwaysimah_boj"
+                android:text="@string/Al_Quwaysimah_branch"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                app:backgroundTint="@android:color/holo_red_dark"
+                tools:ignore="OnClick,UsingOnClickInXml" />
+
+            <Button
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="3dp"
+                android:gravity="center"
+                android:onClick="nuzha_boj"
+                android:text="@string/Nuzha_Cir_branch"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                app:backgroundTint="@android:color/holo_red_dark"
+                tools:ignore="OnClick,UsingOnClickInXml" />
+
+            <Button
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="3dp"
+                android:gravity="center"
+                android:onClick="gardens_boj"
+                android:text="@string/Al_Gardens_branch"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                app:backgroundTint="@android:color/holo_red_dark"
+                tools:ignore="OnClick,UsingOnClickInXml" />
+
+            <Button
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="3dp"
+                android:gravity="center"
+                android:onClick="bayader_boj"
+                android:text="@string/Al_Bayader_branch"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                app:backgroundTint="@android:color/holo_red_dark"
+                tools:ignore="OnClick,UsingOnClickInXml" />
+
+            <Button
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="3dp"
+                android:gravity="center"
+                android:onClick="lwebdeh_boj"
+                android:text="@string/Jabal_Al_Lweibdeh_branch"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                app:backgroundTint="@android:color/holo_red_dark"
+                tools:ignore="OnClick,UsingOnClickInXml" />
+
+            <Button
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="3dp"
+                android:gravity="center"
+                android:onClick="tareq_boj"
+                android:text="@string/Tareq_branch"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                app:backgroundTint="@android:color/holo_red_dark"
+                tools:ignore="OnClick,UsingOnClickInXml" />
+
+            <Button
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="3dp"
+                android:gravity="center"
+                android:onClick="city_boj"
+                android:text="@string/City_Mall_branch"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                app:backgroundTint="@android:color/holo_red_dark"
+                tools:ignore="OnClick,UsingOnClickInXml" />
+
+            <Button
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="3dp"
+                android:gravity="center"
+                android:onClick="jubeiha_boj"
+                android:text="@string/Al_Jubeiha_branch"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                app:backgroundTint="@android:color/holo_red_dark"
+                tools:ignore="OnClick,UsingOnClickInXml" />
+
+            <Button
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="3dp"
+                android:gravity="center"
+                android:onClick="marj_boj"
+                android:text="@string/Marj_Al_Hamam_branch"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                app:backgroundTint="@android:color/holo_red_dark"
+                tools:ignore="OnClick,UsingOnClickInXml" />
+
+            <Button
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="3dp"
+                android:gravity="center"
+                android:onClick="swaifyeh_boj"
+                android:text="@string/Al_Swaifyeh_branch"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                app:backgroundTint="@android:color/holo_red_dark"
+                tools:ignore="OnClick,UsingOnClickInXml" />
+
+            <Button
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="3dp"
+                android:gravity="center"
+                android:onClick="wehdat_boj"
+                android:text="@string/Al_Wehdat_branch"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                app:backgroundTint="@android:color/holo_red_dark"
+                tools:ignore="OnClick,UsingOnClickInXml" />
+
+            <Button
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="3dp"
+                android:gravity="center"
+                android:onClick="mecca_boj"
+                android:text="@string/Mecca_Street_branch"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                app:backgroundTint="@android:color/holo_red_dark"
+                tools:ignore="OnClick,UsingOnClickInXml" />
+
+            <Button
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="3dp"
+                android:gravity="center"
+                android:onClick="khilda_boj"
+                android:text="@string/Khilda_branch"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                app:backgroundTint="@android:color/holo_red_dark"
+                tools:ignore="OnClick,UsingOnClickInXml" />
+
+            <Button
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="3dp"
+                android:gravity="center"
+                android:onClick="khilda_boj"
+                android:text="@string/Khilda_branch"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                app:backgroundTint="@android:color/holo_red_dark"
+                tools:ignore="OnClick,UsingOnClickInXml" />
+
+            <Button
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="3dp"
+                android:gravity="center"
+                android:onClick="alanda_boj"
+                android:text="@string/Abu_Alanda_branch"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                app:backgroundTint="@android:color/holo_red_dark"
+                tools:ignore="OnClick,UsingOnClickInXml" />
+
+            <Button
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="3dp"
+                android:gravity="center"
+                android:onClick="madina_boj"
+                android:text="@string/Al_Madina_Al_Monawara_St_branch"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                app:backgroundTint="@android:color/holo_red_dark"
+                tools:ignore="OnClick,UsingOnClickInXml" />
+
+            <Button
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="3dp"
+                android:gravity="center"
+                android:onClick="yarmouk_boj"
+                android:text="@string/Al_Yarmouk_St_branch"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                app:backgroundTint="@android:color/holo_red_dark"
+                tools:ignore="OnClick,UsingOnClickInXml" />
+
+            <Button
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="3dp"
+                android:gravity="center"
+                android:onClick="nseir_boj"
+                android:text="@string/Abu_Nseir_branch"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                app:backgroundTint="@android:color/holo_red_dark"
+                tools:ignore="OnClick,UsingOnClickInXml" />
+
+            <Button
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="3dp"
+                android:gravity="center"
+                android:onClick="yasmin_boj"
+                android:text="@string/Al_Yasmin_branch"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                app:backgroundTint="@android:color/holo_red_dark"
+                tools:ignore="OnClick,UsingOnClickInXml" />
+
+            <Button
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="3dp"
+                android:gravity="center"
+                android:onClick="uthaina_boj"
+                android:text="@string/Um_Uthaina_branch"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                app:backgroundTint="@android:color/holo_red_dark"
+                tools:ignore="OnClick,UsingOnClickInXml" />
+
+            <Button
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="3dp"
+                android:gravity="center"
+                android:onClick="dabouq_boj"
+                android:text="@string/Dabouq_branch"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                app:backgroundTint="@android:color/holo_red_dark"
+                tools:ignore="OnClick,UsingOnClickInXml" />
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

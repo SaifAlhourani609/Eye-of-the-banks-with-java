@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/design_default_color_background"
+    android:orientation="vertical"
+    tools:context=".activityc">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="5dp"
+        android:gravity="center"
+        android:text="Central Bank of Jordan"
+        android:textColor="@color/graydark"
+        android:textSize="30dp"
+        android:textStyle="bold"></TextView>
+
+
+    <ImageView
+
+        android:layout_width="wrap_content"
+
+        android:layout_height="124dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="18dp"
+        android:layout_marginBottom="50dp"
+        app:srcCompat="@drawable/central_bank_of_jordan" />
+    <Button
+        android:layout_width="250dp"
+
+        android:layout_height="35dp"
+        android:layout_gravity="center"
+        android:onClick="WEBSITE"
+        android:text="WEBSITE"
+        android:textStyle="bold"
+        android:textColor="@android:color/holo_red_dark"
+        app:backgroundTint="#AEF6C7C7"  />
+    <Button
+        android:layout_width="250dp"
+
+        android:layout_height="35dp"
+        android:layout_gravity="center"
+        android:onClick="Central_Bank_of_Jordan"
+        android:text="About the Bank"
+        android:textStyle="bold"
+        android:textColor="@android:color/holo_red_dark"
+        app:backgroundTint="#AEF6C7C7" />
+    <Button
+        android:layout_width="250dp"
+
+        android:layout_height="35dp"
+        android:layout_gravity="center"
+        android:onClick="back"
+        android:text="Back"
+        android:textStyle="bold"
+        android:textColor="@android:color/holo_red_dark"
+        app:backgroundTint="#AEF6C7C7"  />
+
+
+
+
+    <Button
+        android:id="@+id/b"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:background="@color/teal_700"
+        android:onClick="thefirstmap"
+        android:text="Central Bank of Jordan"
+
+        android:textColor="@color/white"
+        app:backgroundTint="#F0E40707" />
+
+
+
+
+
+</LinearLayout>

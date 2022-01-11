@@ -1,0 +1,290 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".amman_jib"
+    tools:ignore="UseCompoundDrawables">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="5dp"
+        android:gravity="center"
+        android:text="@string/Jordan_Islamic_Bank"
+        android:textColor="#D50000"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="124dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:contentDescription="@string/Jordan_Islamic_Bank"
+        app:srcCompat="@drawable/jib_logo" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fillViewport="false">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <Button
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="3dp"
+                android:gravity="center"
+                android:onClick="main_jib"
+                android:text="@string/The_main_branch"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                app:backgroundTint="@android:color/holo_red_dark"
+                tools:ignore="OnClick,UsingOnClickInXml" />
+
+            <Button
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="3dp"
+                android:gravity="center"
+                android:onClick="shafa_jib"
+                android:text="@string/Shafa_Badran_branch"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                app:backgroundTint="@android:color/holo_red_dark"
+                tools:ignore="OnClick,UsingOnClickInXml" />
+
+            <Button
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="3dp"
+                android:gravity="center"
+                android:onClick="al_hussein_jib"
+                android:text="@string/Jabal_Al_Hussein_branch"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                app:backgroundTint="@android:color/holo_red_dark"
+                tools:ignore="OnClick,UsingOnClickInXml" />
+
+            <Button
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="3dp"
+                android:gravity="center"
+                android:onClick="al_jubeiha_jib"
+                android:text="@string/Al_Jubeiha_branch"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                app:backgroundTint="@android:color/holo_red_dark"
+                tools:ignore="OnClick,UsingOnClickInXml" />
+
+            <Button
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="3dp"
+                android:gravity="center"
+                android:onClick="pavilion_jib"
+                android:text="@string/Pavilion_Mall_branch"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                app:backgroundTint="@android:color/holo_red_dark"
+                tools:ignore="OnClick,UsingOnClickInXml" />
+
+            <Button
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="3dp"
+                android:gravity="center"
+                android:onClick="rashid_jib"
+                android:text="@string/Al_Rashid_branch"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                app:backgroundTint="@android:color/holo_red_dark"
+                tools:ignore="OnClick,UsingOnClickInXml" />
+
+            <Button
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="3dp"
+                android:gravity="center"
+                android:onClick="abdoun_jib"
+                android:text="@string/Abdoun_branch"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                app:backgroundTint="@android:color/holo_red_dark"
+                tools:ignore="OnClick,UsingOnClickInXml" />
+
+            <Button
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="3dp"
+                android:gravity="center"
+                android:onClick="arifa_jib"
+                android:text="@string/Arifa_Mall_branch"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                app:backgroundTint="@android:color/holo_red_dark"
+                tools:ignore="OnClick,UsingOnClickInXml" />
+
+            <Button
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="3dp"
+                android:gravity="center"
+                android:onClick="shumaysani_jib"
+                android:text="@string/Ash_Shumaysani_branch"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                app:backgroundTint="@android:color/holo_red_dark"
+                tools:ignore="OnClick,UsingOnClickInXml" />
+
+            <Button
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="3dp"
+                android:gravity="center"
+                android:onClick="mecca_jib"
+                android:text="@string/Mecca_Mall_branch"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                app:backgroundTint="@android:color/holo_red_dark"
+                tools:ignore="OnClick,UsingOnClickInXml" />
+
+            <Button
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="3dp"
+                android:gravity="center"
+                android:onClick="tabarbour_jib"
+                android:text="@string/Tabarbour_branch"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                app:backgroundTint="@android:color/holo_red_dark"
+                tools:ignore="OnClick,UsingOnClickInXml" />
+
+            <Button
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="3dp"
+                android:gravity="center"
+                android:onClick="swafyeh_jib"
+                android:text="@string/Al_Swaifyeh_branch"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                app:backgroundTint="@android:color/holo_red_dark"
+                tools:ignore="OnClick,UsingOnClickInXml" />
+
+            <Button
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="3dp"
+                android:gravity="center"
+                android:onClick="khilda_jib"
+                android:text="@string/Khilda_branch"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                app:backgroundTint="@android:color/holo_red_dark"
+                tools:ignore="OnClick,UsingOnClickInXml" />
+
+            <Button
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="3dp"
+                android:gravity="center"
+                android:onClick="sweileh_jib"
+                android:text="@string/Sweileh_branch"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                app:backgroundTint="@android:color/holo_red_dark"
+                tools:ignore="OnClick,UsingOnClickInXml" />
+
+            <Button
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="3dp"
+                android:gravity="center"
+                android:onClick="marj_jib"
+                android:text="@string/Marj_Al_Hamam_branch"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                app:backgroundTint="@android:color/holo_red_dark"
+                tools:ignore="OnClick,UsingOnClickInXml" />
+
+            <Button
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="3dp"
+                android:gravity="center"
+                android:onClick="wehdat_jib"
+                android:text="@string/Al_Wehdat_branch"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                app:backgroundTint="@android:color/holo_red_dark"
+                tools:ignore="OnClick,UsingOnClickInXml" />
+
+            <Button
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="3dp"
+                android:gravity="center"
+                android:onClick="jabal_amman_jib"
+                android:text="@string/Jabal_Amman_branch"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                app:backgroundTint="@android:color/holo_red_dark"
+                tools:ignore="OnClick,UsingOnClickInXml" />
+
+            <Button
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="3dp"
+                android:gravity="center"
+                android:onClick="jabal_alNaser_jib"
+                android:text="@string/Jabal_Al_Naser_branch"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                app:backgroundTint="@android:color/holo_red_dark"
+                tools:ignore="OnClick,UsingOnClickInXml" />
+
+            <Button
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="3dp"
+                android:gravity="center"
+                android:onClick="lweibdeh_jib"
+                android:text="@string/Al_Lweibdeh_branch"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                app:backgroundTint="@android:color/holo_red_dark"
+                tools:ignore="OnClick,UsingOnClickInXml" />
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

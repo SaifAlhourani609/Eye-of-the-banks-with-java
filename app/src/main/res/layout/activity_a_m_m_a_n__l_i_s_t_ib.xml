@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AMMAN_LIST_ib"
+    android:orientation="vertical">
+    <TextView
+
+        android:textSize="30dp"
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textColor="@color/graydark"
+        android:text="Invest Bank"></TextView>
+
+
+    <ImageView
+
+        android:layout_marginBottom="10dp"
+
+        android:layout_width="wrap_content"
+        android:layout_height="124dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        app:srcCompat="@drawable/logo_ib" />
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fillViewport="false">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <Button
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="3dp"
+                android:gravity="center"
+                android:text=" Al Shareef Abd Al Hameed Sharaf St 43"
+                android:onClick="Al_Shareef"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                app:backgroundTint="@android:color/holo_red_dark"  />
+            <Button
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="3dp"
+                android:gravity="center"
+                android:text=" Salman Al-Qudat St. 9"
+                android:onClick="Salman_Al_Qudat"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                app:backgroundTint="@android:color/holo_red_dark"  />
+            <Button
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="3dp"
+                android:gravity="center"
+                android:text="Al Sharq Al Awsat Commercial Complex"
+                android:onClick="Al_Awsat"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                app:backgroundTint="@android:color/holo_red_dark"  />
+            <Button
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="3dp"
+                android:gravity="center"
+                android:text="Mecca St"
+                android:onClick="Mecca"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                app:backgroundTint="@android:color/holo_red_dark"  />
+            <Button
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="3dp"
+                android:gravity="center"
+                android:text="Zahran St 196(ATM)"
+                android:onClick="Zahran"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                app:backgroundTint="@android:color/holo_red_dark"  />
+            <Button
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="3dp"
+                android:gravity="center"
+                android:text="Invest Bank- Dabuq"
+                android:onClick="Dabuq"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                app:backgroundTint="@android:color/holo_red_dark"  />
+            <Button
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="3dp"
+                android:gravity="center"
+                android:text="Hijazi Al Bayer Complex"
+                android:onClick="Hijazi"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                app:backgroundTint="@android:color/holo_red_dark"  />
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

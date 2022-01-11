@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Irbid_LIST_cab"
+    android:orientation="vertical">
+    <TextView
+
+        android:textSize="30dp"
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textColor="@color/graydark"
+        android:text="Cairo Amman Bank"></TextView>
+
+
+    <ImageView
+
+        android:layout_marginBottom="10dp"
+
+        android:layout_width="wrap_content"
+        android:layout_height="124dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        app:srcCompat="@drawable/logo_cab" />
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fillViewport="false">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="3dp"
+                android:gravity="center"
+                android:onClick="field"
+                android:text="field branch"
+                android:textStyle="bold"
+                android:textColor="@color/white"
+                app:backgroundTint="#F0E40707" />
+
+            <Button
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="3dp"
+                android:gravity="center"
+                android:onClick="Yarmouk"
+                android:text="Yarmouk University / students office"
+                android:textStyle="bold"
+                android:textColor="@color/white"
+                app:backgroundTint="#F0E40707" />
+            <Button
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="3dp"
+                android:gravity="center"
+                android:onClick="Irbid"
+                android:text="Irbid branch."
+                android:textStyle="bold"
+                android:textColor="@color/white"
+                app:backgroundTint="#F0E40707" />
+            <Button
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="3dp"
+                android:gravity="center"
+                android:onClick="Kenana"
+                android:text="Bani Kenana Branch"
+                android:textStyle="bold"
+                android:textColor="@color/white"
+                app:backgroundTint="#F0E40707" />
+            <Button
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="3dp"
+                android:gravity="center"
+                android:onClick="Said"
+                android:text="Deir Abi Said branch"
+                android:textStyle="bold"
+                android:textColor="@color/white"
+                app:backgroundTint="#F0E40707" />
+            <Button
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="3dp"
+                android:gravity="center"
+                android:onClick="Omar"
+                android:text="Omar Mukhtar Street Branch"
+                android:textStyle="bold"
+                android:textColor="@color/white"
+                app:backgroundTint="#F0E40707" />
+            <Button
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="3dp"
+                android:gravity="center"
+                android:onClick="Abdullah"
+                android:text="Founder King Abdullah University Hospital Branch"
+                android:textStyle="bold"
+                android:textColor="@color/white"
+                app:backgroundTint="#F0E40707" />
+
+
+
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
+
+

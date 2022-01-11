@@ -1,0 +1,476 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:fillViewport="false">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageButton
+                    android:id="@+id/button13"
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:layout_below="@+id/button10"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginTop="24dp"
+                    android:background="@color/design_default_color_background"
+                    android:onClick="Arab_Jordan_Investment_Bank_AJIB"
+                    android:src="@drawable/jjj"
+                    android:text="Arab Jordan Investment Bank AJIB"
+                    android:textColor="@color/black"
+                    android:textStyle="bold"
+                    app:layout_constraintEnd_toStartOf="@+id/button"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/button2" />
+
+                <ImageButton
+                    android:id="@+id/button"
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:layout_below="@+id/button11"
+                    android:layout_marginTop="24dp"
+                    android:layout_marginEnd="16dp"
+                    android:layout_toRightOf="@id/button5"
+                    android:background="@color/design_default_color_background"
+                    android:onClick="Societe_Generale_De_Banque_Jordan"
+                    android:src="@drawable/o"
+                    android:text="Societe Generale De Banque Jordan - SGBJ"
+                    android:textColor="@color/white"
+                    android:textStyle="bold"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toEndOf="@+id/button13"
+                    app:layout_constraintTop_toBottomOf="@+id/button3" />
+
+                <ImageButton
+                    android:id="@+id/button2"
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:layout_below="@+id/button12"
+                    android:layout_margin="15dp"
+                    android:layout_marginStart="16dp"
+
+                    android:layout_marginTop="24dp"
+                    android:background="@color/design_default_color_background"
+                    android:onClick="Invest_Bank"
+                    android:src="@drawable/in"
+                    android:text="Invest Bank"
+                    android:textColor="@color/white"
+                    android:textStyle="bold"
+                    app:layout_constraintEnd_toStartOf="@+id/button3"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/button4" />
+
+                <ImageButton
+                    android:id="@+id/button3"
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:layout_below="@+id/button2"
+                    android:layout_marginTop="24dp"
+                    android:layout_marginEnd="16dp"
+                    android:background="@color/design_default_color_background"
+                    android:onClick="ABCJ"
+                    android:src="@drawable/logoabc"
+                    android:text="Arab Banking Corp/jordan"
+                    android:textColor="@color/white"
+                    android:textStyle="bold"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toEndOf="@+id/button2"
+                    app:layout_constraintTop_toBottomOf="@+id/button5" />
+
+                <ImageButton
+                    android:id="@+id/button4"
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:layout_below="@+id/button9"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginTop="24dp"
+                    android:layout_toEndOf="@id/button5"
+                    android:background="@color/design_default_color_background"
+                    android:contentDescription="@string/Housing_Bank"
+                    android:onClick="Housing_Bank"
+                    android:src="@drawable/e"
+                    android:text="@string/Housing_Bank"
+                    android:textColor="@color/black"
+                    android:textStyle="bold"
+                    app:layout_constraintEnd_toStartOf="@+id/button5"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/button7"
+                    tools:ignore="UsingOnClickInXml" />
+
+                <ImageButton
+                    android:id="@+id/button5"
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:layout_margin="15dp"
+                    android:layout_marginTop="24dp"
+                    android:layout_marginEnd="16dp"
+                    android:background="@color/design_default_color_background"
+                    android:onClick="Cairo_Amman_Bank"
+                    android:src="@drawable/ammanj"
+                    android:text="Cairo Amman Bank"
+                    android:textColor="@color/white"
+                    android:textStyle="bold"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toEndOf="@+id/button4"
+                    app:layout_constraintTop_toBottomOf="@+id/btn_SIB" />
+
+                <ImageButton
+                    android:id="@+id/button7"
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:layout_below="@+id/button3"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginTop="24dp"
+                    android:background="@color/design_default_color_background"
+                    android:contentDescription="@string/Bank_Of_Jordan"
+                    android:onClick="Bank_of_Jordan"
+                    android:src="@drawable/lbojj"
+                    android:text="@string/Bank_Of_Jordan"
+                    android:textColor="@color/black"
+                    android:textStyle="bold"
+                    app:layout_constraintEnd_toStartOf="@+id/btn_SIB"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/button9"
+                    tools:ignore="UsingOnClickInXml" />
+
+                <ImageButton
+                    android:id="@+id/button8"
+
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:layout_below="@+id/button"
+                    android:layout_marginTop="24dp"
+                    android:layout_marginEnd="16dp"
+                    android:background="@color/design_default_color_background"
+
+                    android:onClick="arabbank1"
+                    android:padding="30dp"
+                    android:src="@drawable/arab4"
+                    android:text="Arab Bank"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toEndOf="@+id/button9"
+                    app:layout_constraintTop_toBottomOf="@+id/button10" />
+
+                <ImageButton
+                    android:id="@+id/button9"
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:layout_below="@+id/button7"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginTop="24dp"
+                    android:layout_toRightOf="@id/button5"
+                    android:background="@color/design_default_color_background"
+
+                    android:onClick="Jordan_Kuwait_Bank"
+                    android:src="@drawable/jkkb"
+                    android:text="Jordan Kuwait Bank"
+                    android:textColor="@color/black"
+                    android:textStyle="bold"
+                    app:layout_constraintEnd_toStartOf="@+id/button8"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/button12" />
+
+                <ImageButton
+                    android:id="@+id/button10"
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:layout_marginTop="24dp"
+                    android:layout_marginEnd="16dp"
+                    android:layout_toRightOf="@id/button2"
+                    android:background="@color/design_default_color_background"
+                    android:onClick="Rafidain_Bank"
+                    android:padding="10dp"
+                    android:src="@drawable/rafidain_logo"
+                    android:textColor="@color/white"
+                    android:textStyle="bold"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toEndOf="@+id/button12"
+                    app:layout_constraintTop_toBottomOf="@+id/button11" />
+
+                <ImageButton
+                    android:id="@+id/button11"
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:layout_below="@+id/button14"
+                    android:layout_marginTop="32dp"
+                    android:layout_marginEnd="16dp"
+                    android:layout_toRightOf="@id/button5"
+                    android:background="@color/design_default_color_background"
+                    android:onClick="Bank_al_Etihad"
+                    android:src="@drawable/h"
+                    android:text="Bank al Etihad"
+                    android:textColor="@color/white"
+                    android:textStyle="bold"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toEndOf="@+id/button14"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <ImageButton
+                    android:id="@+id/button12"
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:layout_below="@+id/button8"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginTop="24dp"
+                    android:layout_toEndOf="@id/button5"
+                    android:background="@color/design_default_color_background"
+                    android:contentDescription="@string/Al_Ahli_Bank"
+                    android:onClick="Ahli_Bank"
+                    android:src="@drawable/ahli"
+                    android:text="@string/Al_Ahli_Bank"
+                    android:textColor="@color/white"
+                    android:textStyle="bold"
+                    app:layout_constraintEnd_toStartOf="@+id/button10"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/button14"
+                    tools:ignore="UsingOnClickInXml" />
+
+                <ImageButton
+                    android:id="@+id/button14"
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginTop="32dp"
+                    android:background="@color/design_default_color_background"
+                    android:onClick="CentralBankofJordan1"
+                    android:padding="10dp"
+                    android:src="@drawable/central2"
+                    android:text="Central Bank of Jordan"
+                    android:textColor="@color/white"
+                    android:textSize="14dp"
+                    android:textStyle="bold"
+                    app:layout_constraintEnd_toStartOf="@+id/button11"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <ImageButton
+                    android:id="@+id/btn_SIB"
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:layout_below="@+id/btn_IIAB"
+                    android:layout_margin="15dp"
+                    android:layout_marginTop="12dp"
+                    android:layout_marginEnd="16dp"
+                    android:background="@drawable/sib_logo"
+                    android:contentDescription="@string/Safwa_Islamic_Bank"
+                    android:onClick="Safwa_Islamic_Bank"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toEndOf="@+id/button7"
+                    app:layout_constraintTop_toBottomOf="@+id/button8"
+                    tools:ignore="UsingOnClickInXml" />
+
+                <ImageButton
+                    android:id="@+id/btn_CB"
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:layout_below="@+id/btn_SC"
+                    android:layout_margin="15dp"
+                    android:layout_marginStart="24dp"
+                    android:layout_marginTop="24dp"
+                    android:background="@drawable/citi_logo"
+                    android:contentDescription="@string/Citi_Bank"
+                    android:onClick="Citi_Bank"
+                    android:text="@string/Citi_Bank"
+                    app:layout_constraintEnd_toStartOf="@+id/jcb"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/btn_NBOAD"
+                    tools:ignore="UsingOnClickInXml" />
+
+                <ImageButton
+                    android:id="@+id/btn_NBOAD"
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:layout_below="@+id/btn_BLOMB"
+                    android:layout_margin="15dp"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginTop="24dp"
+                    android:layout_toEndOf="@id/btn_SC"
+                    android:background="@drawable/nbod_logo"
+                    android:contentDescription="@string/National_Bank_of_Dhabi"
+                    android:onClick="National_Bank_of_Abu_Dhabi"
+                    app:layout_constraintEnd_toStartOf="@+id/imageButton"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/btn_RG"
+                    tools:ignore="UsingOnClickInXml" />
+
+                <ImageButton
+                    android:id="@+id/btn_BB"
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:layout_below="@+id/btn_NBOK"
+                    android:layout_margin="15dp"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginTop="24dp"
+                    android:background="@drawable/audi_logo"
+                    android:contentDescription="@string/Audi_Bank"
+                    android:onClick="Audi_Bank"
+                    app:layout_constraintEnd_toStartOf="@+id/btn_JIB"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/btn_CB"
+                    tools:ignore="UsingOnClickInXml" />
+
+                <ImageButton
+                    android:id="@+id/btn_JIB"
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:layout_below="@+id/btn_NBOAD"
+                    android:layout_margin="15dp"
+                    android:layout_marginTop="24dp"
+                    android:layout_marginEnd="16dp"
+                    android:layout_toEndOf="@id/btn_SC"
+                    android:background="@drawable/jib_logo"
+                    android:contentDescription="@string/Jordan_Islamic_Bank"
+                    android:onClick="Jordan_Islamic_Bank"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toEndOf="@+id/btn_BB"
+                    app:layout_constraintTop_toBottomOf="@+id/jcb"
+                    tools:ignore="UsingOnClickInXml" />
+
+                <ImageButton
+                    android:id="@+id/jcb"
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:layout_margin="15dp"
+                    android:layout_marginTop="24dp"
+                    android:layout_marginEnd="16dp"
+                    android:layout_toEndOf="@id/btn_SIB"
+                    android:background="@drawable/jcb_logo"
+                    android:contentDescription="@string/Jordan_Commercial_Bank"
+                    android:onClick="Jordan_Commercial_Bank"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toEndOf="@+id/btn_CB"
+                    app:layout_constraintTop_toBottomOf="@+id/imageButton"
+                    tools:ignore="UsingOnClickInXml" />
+
+                <ImageButton
+                    android:id="@+id/imageButton"
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:layout_below="@id/btn_RG"
+                    android:layout_margin="15dp"
+                    android:layout_marginTop="24dp"
+                    android:layout_marginEnd="16dp"
+                    android:layout_toEndOf="@id/btn_SC"
+                    android:background="@drawable/capital_logo"
+                    android:contentDescription="@string/Capital_Bank"
+                    android:onClick="Capital_Bank"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toEndOf="@+id/btn_NBOAD"
+                    app:layout_constraintTop_toBottomOf="@+id/btn_EALB"
+                    tools:ignore="UsingOnClickInXml" />
+
+                <ImageButton
+                    android:id="@+id/btn_RG"
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:layout_below="@+id/btn_JIB"
+                    android:layout_margin="15dp"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginTop="24dp"
+                    android:layout_toEndOf="@id/btn_SC"
+                    android:background="@drawable/rb_logo"
+                    android:contentDescription="@string/Al_Rajhi_Bank"
+                    android:onClick="Al_Rajhi_Bank"
+                    app:layout_constraintEnd_toStartOf="@+id/btn_EALB"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/btn_SC"
+                    tools:ignore="UsingOnClickInXml" />
+
+                <ImageButton
+                    android:id="@+id/btn_EALB"
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:layout_margin="15dp"
+                    android:layout_marginTop="24dp"
+                    android:layout_marginEnd="16dp"
+                    android:layout_toEndOf="@id/btn_SC"
+                    android:background="@drawable/ealb_logo"
+                    android:contentDescription="@string/Egyptian_Arab_Land_Bank"
+                    android:onClick="Egyptian_Arab_Land_Bank"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toEndOf="@+id/btn_RG"
+                    app:layout_constraintTop_toBottomOf="@+id/btn_SC"
+                    tools:ignore="UsingOnClickInXml" />
+
+                <ImageButton
+                    android:id="@+id/btn_BLOMB"
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:layout_margin="15dp"
+                    android:layout_marginTop="24dp"
+                    android:layout_marginEnd="16dp"
+                    android:layout_toEndOf="@id/btn_SC"
+                    android:background="@drawable/blom_logo"
+                    android:contentDescription="@string/BLOM_Bank"
+                    android:onClick="BLOM_Bank"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toEndOf="@+id/btn_SC"
+                    app:layout_constraintTop_toBottomOf="@+id/btn_IIAB"
+                    tools:ignore="UsingOnClickInXml" />
+
+                <ImageButton
+                    android:id="@+id/btn_SC"
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:layout_margin="15dp"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginTop="24dp"
+                    android:background="@drawable/sc_logo"
+                    android:contentDescription="@string/Standard_Chartered"
+                    android:onClick="Standard_Chartered"
+                    android:text="@string/Standard_Chartered"
+                    app:layout_constraintEnd_toStartOf="@+id/btn_BLOMB"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/btn_NBOK"
+                    tools:ignore="UsingOnClickInXml" />
+
+                <ImageButton
+                    android:id="@+id/btn_IIAB"
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:layout_below="@+id/btn_BB"
+                    android:layout_margin="15dp"
+                    android:layout_marginTop="24dp"
+                    android:layout_marginEnd="16dp"
+                    android:background="@drawable/iiab_logo"
+                    android:contentDescription="@string/Islamic_International_Arab_Bank"
+                    android:onClick="Islamic_International_Arab_Bank"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toEndOf="@+id/btn_NBOK"
+                    app:layout_constraintTop_toBottomOf="@+id/button"
+                    tools:ignore="UsingOnClickInXml" />
+
+                <ImageButton
+                    android:id="@+id/btn_NBOK"
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:layout_below="@+id/btn_CB"
+                    android:layout_margin="15dp"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginTop="24dp"
+                    android:background="@drawable/nbk_logo"
+                    android:contentDescription="@string/National_Bank_of_Kuwait"
+                    android:onClick="National_Bank_of_Kuwait"
+                    app:layout_constraintEnd_toStartOf="@+id/btn_IIAB"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/button13"
+                    tools:ignore="UsingOnClickInXml" />
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

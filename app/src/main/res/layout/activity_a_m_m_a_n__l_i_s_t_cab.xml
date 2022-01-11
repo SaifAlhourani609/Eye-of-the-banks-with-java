@@ -1,0 +1,412 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AMMAN_LIST_cab"
+    android:orientation="vertical">
+    <TextView
+
+        android:textSize="30dp"
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textColor="@color/graydark"
+        android:text="Cairo Amman Bank"></TextView>
+
+
+    <ImageView
+
+        android:layout_marginBottom="10dp"
+
+        android:layout_width="wrap_content"
+        android:layout_height="124dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        app:srcCompat="@drawable/logo_cab" />
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fillViewport="false">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="3dp"
+                android:gravity="center"
+                android:onClick="Shmeisani_Branch"
+                android:text="Shmeisani Branch"
+                android:textStyle="bold"
+                android:textColor="@color/white"
+                app:backgroundTint="#F0E40707" />
+            <Button
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="3dp"
+                android:gravity="center"
+                android:onClick="Qweismeh_branch"
+                android:text="Qweismeh branch"
+                android:textStyle="bold"
+                android:textColor="@color/white"
+                app:backgroundTint="#F0E40707" />
+            <Button
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="3dp"
+                android:gravity="center"
+                android:onClick="Marj_Al_Hamam_Branch"
+                android:text="Marj Al Hamam Branch"
+                android:textStyle="bold"
+                android:textColor="@color/white"
+                app:backgroundTint="#F0E40707" />
+            <Button
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="3dp"
+                android:gravity="center"
+                android:onClick="Mecca"
+                android:text="Mecca Street Branch"
+                android:textStyle="bold"
+                android:textColor="@color/white"
+                app:backgroundTint="#F0E40707" />
+            <Button
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="3dp"
+                android:gravity="center"
+                android:onClick="Yasmeen"
+                android:text="Dahiyat Al-Yasmeen Branch"
+                android:textStyle="bold"
+                android:textColor="@color/white"
+                app:backgroundTint="#F0E40707" />
+            <Button
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="3dp"
+                android:gravity="center"
+                android:onClick="Amman"
+                android:text="Amman branch"
+                android:textStyle="bold"
+                android:textColor="@color/white"
+                app:backgroundTint="#F0E40707" />
+            <Button
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="3dp"
+                android:gravity="center"
+                android:onClick="Marriott"
+                android:text="Marriott hotel branch"
+                android:textStyle="bold"
+                android:textColor="@color/white"
+                app:backgroundTint="#F0E40707" />
+
+            <Button
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="3dp"
+                android:gravity="center"
+                android:onClick="Marka"
+                android:text="Marka Branch"
+                android:textStyle="bold"
+                android:textColor="@color/white"
+                app:backgroundTint="#F0E40707" />
+            <Button
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="3dp"
+                android:gravity="center"
+                android:onClick="University"
+                android:text="Jordan University Hospital Branch"
+                android:textStyle="bold"
+                android:textColor="@color/white"
+                app:backgroundTint="#F0E40707" />
+            <Button
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="3dp"
+                android:gravity="center"
+                android:onClick="Sweileh_Branch"
+                android:text="Sweileh Branch"
+                android:textStyle="bold"
+                android:textColor="@color/white"/>
+
+            <Button
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="3dp"
+                android:gravity="center"
+                android:onClick="Alanda"
+                android:text="Abu Alanda Branch"
+                android:textStyle="bold"
+                android:textColor="@color/white"
+                app:backgroundTint="#F0E40707" />
+            <Button
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="3dp"
+                android:gravity="center"
+                android:onClick="Salam"
+                android:text="Salam Market Branch"
+                android:textStyle="bold"
+                android:textColor="@color/white"
+                app:backgroundTint="#F0E40707" />
+            <Button
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="3dp"
+                android:gravity="center"
+                android:onClick="Nseir"
+                android:text="Abu Nseir Branch"
+                android:textStyle="bold"
+                android:textColor="@color/white"
+                app:backgroundTint="#F0E40707" />
+            <Button
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="3dp"
+                android:gravity="center"
+                android:onClick="Bayader"
+                android:text="Al Bayader Branch"
+                android:textStyle="bold"
+                android:textColor="@color/white"
+                app:backgroundTint="#F0E40707" />
+            <Button
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="3dp"
+                android:gravity="center"
+                android:onClick="Rabieh"
+                android:text="Rabieh Branch"
+                android:textStyle="bold"
+                android:textColor="@color/white"
+                app:backgroundTint="#F0E40707" />
+            <Button
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="3dp"
+                android:gravity="center"
+                android:onClick="City"
+                android:text="City Mall Branch"
+                android:textStyle="bold"
+                android:textColor="@color/white"
+                app:backgroundTint="#F0E40707" />
+            <Button
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="3dp"
+                android:gravity="center"
+                android:onClick="Sweifieh_Branch"
+                android:text="Sweifieh Branch"
+                android:textStyle="bold"
+                android:textColor="@color/white"
+                app:backgroundTint="#F0E40707" />
+            <Button
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="3dp"
+                android:gravity="center"
+                android:onClick="Abdali_Branch"
+                android:text="Abdali Branch"
+                android:textStyle="bold"
+                android:textColor="@color/white"
+                app:backgroundTint="#F0E40707" />
+            <Button
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="3dp"
+                android:gravity="center"
+                android:onClick="Mahatta"
+                android:text="Mahatta branch"
+                android:textStyle="bold"
+                android:textColor="@color/white"
+                app:backgroundTint="#F0E40707" />
+            <Button
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="3dp"
+                android:gravity="center"
+                android:onClick="Nozha_Branch"
+                android:text="Nozha Branch"
+                android:textStyle="bold"
+                android:textColor="@color/white"
+                app:backgroundTint="#F0E40707" />
+            <Button
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="3dp"
+                android:gravity="center"
+                android:onClick="North_Hashmi_Branch"
+                android:text="North Hashmi Branch"
+                android:textStyle="bold"
+                android:textColor="@color/white"
+                app:backgroundTint="#F0E40707" />
+            <Button
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="3dp"
+                android:gravity="center"
+                android:onClick="Wehdat_Branch"
+                android:text="Wehdat Branch"
+                android:textStyle="bold"
+                android:textColor="@color/white"
+                app:backgroundTint="#F0E40707" />
+            <Button
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="3dp"
+                android:gravity="center"
+                android:onClick="Jabal"
+                android:text="Jabal Al-Hussein Branch"
+                android:textStyle="bold"
+                android:textColor="@color/white"
+                app:backgroundTint="#F0E40707" />
+            <Button
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="3dp"
+                android:gravity="center"
+                android:onClick="Weibdeh"
+                android:text="Jabal Al Weibdeh Branch"
+                android:textStyle="bold"
+                android:textColor="@color/white"
+                app:backgroundTint="#F0E40707" />
+            <Button
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="3dp"
+                android:gravity="center"
+                android:onClick="Jabal_Amman_Branch"
+                android:text="Jabal Amman Branch"
+                android:textStyle="bold"
+                android:textColor="@color/white"
+                app:backgroundTint="#F0E40707" />
+
+            <Button
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="3dp"
+                android:gravity="center"
+                android:onClick="Zara"
+                android:text="Zara Mall Branch"
+                android:textStyle="bold"
+                android:textColor="@color/white"
+                app:backgroundTint="#F0E40707" />
+            <Button
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="3dp"
+                android:gravity="center"
+                android:onClick="Freedom"
+                android:text="Freedom Street Branch"
+                android:textStyle="bold"
+                android:textColor="@color/white"
+                app:backgroundTint="#F0E40707" />
+            <Button
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="3dp"
+                android:gravity="center"
+                android:onClick="Medina"
+                android:text="Medina Street Branch"
+                android:textStyle="bold"
+                android:textColor="@color/white"
+                app:backgroundTint="#F0E40707" />
+            <Button
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="3dp"
+                android:gravity="center"
+                android:onClick="Tabarbour"
+                android:text="Tabarbour Branch"
+                android:textStyle="bold"
+                android:textColor="@color/white"
+                app:backgroundTint="#F0E40707" />
+            <Button
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="3dp"
+                android:gravity="center"
+                android:onClick="Abdoun"
+                android:text="Abdoun Branch"
+                android:textStyle="bold"
+                android:textColor="@color/white"
+                app:backgroundTint="#F0E40707" />
+            <Button
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="3dp"
+                android:gravity="center"
+                android:onClick="Prince"
+                android:text="Prince Hamza Hospital Branch"
+                android:textStyle="bold"
+                android:textColor="@color/white"
+                app:backgroundTint="#F0E40707" />
+            <Button
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="3dp"
+                android:gravity="center"
+                android:onClick="Saqra"
+                android:text="Wadi Saqra Branch"
+                android:textStyle="bold"
+                android:textColor="@color/white"
+                app:backgroundTint="#F0E40707" />
+            <Button
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="3dp"
+                android:gravity="center"
+                android:onClick="Cosmo_office"
+                android:text="Cosmo office"
+                android:textStyle="bold"
+                android:textColor="@color/white"
+                app:backgroundTint="#F0E40707" />
+
+
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
+
+

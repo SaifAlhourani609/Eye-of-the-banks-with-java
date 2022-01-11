@@ -1,0 +1,246 @@
+<resources>
+    <string name="app_name">Eye of the banks</string>
+    <!-- لمياء -->
+
+
+    <string name="no_branches"> There are no branches in this county </string>
+    <string name="back"> Back </string>
+    <string name="website"> WEBSITE </string>
+    <string name="Standard_Chartered"> Standard Chartered </string>
+    <string name="Egyptian_Arab_Land_Bank"> Egyptian Arab Land Bank </string>
+    <string name="Citi_Bank"> City Bank </string>
+    <string name="Rafidain_Bank"> Rafidain Bank </string>
+    <string name="National_Bank_of_Kuwait"> National Bank of Kuwait </string>
+    <string name="National_Bank_of_Dhabi"> National Bank of Dhabi </string>
+    <string name="BLOM_Bank"> BLOM Bank </string>
+    <string name="Audi_Bank"> Bank Audi </string>
+    <string name="Islamic_International_Arab_Bank"> Islamic International Arab Bank </string>
+    <string name="Safwa_Islamic_Bank"> Safwa Islamic Bank </string>
+    <string name="Jordan_Islamic_Bank"> Jordan Islamic Bank </string>
+    <string name="Al_Rajhi_Bank"> Al-Rajhi Bank </string>
+    <string name="Capital_Bank"> Capital Bank </string>
+    <string name="Al_Ahli_Bank"> Al-Ahli Bank </string>
+    <string name="Bank_Of_Jordan"> Bank Of Jordan</string>
+    <string name="Jordan_Commercial_Bank"> Jordan Commercial Bank </string>
+    <string name="Housing_Bank"> Housing Bank </string>
+
+
+    <string name="list_of_g"> List of governorates of Jordan </string>
+
+    <string name="g1"> Amman </string>
+    <string name="g2"> Al Mafraq </string>
+    <string name="g3"> Az Zarqa"'" </string>
+    <string name="g4"> Irbid </string>
+    <string name="g5"> Al Karak </string>
+    <string name="g6"> Ajlun </string>
+    <string name="g7"> Jarash </string>
+    <string name="g8"> Al Balqa"'" </string>
+    <string name="g9"> Madaba </string>
+    <string name="g10"> Al Tafilah </string>
+    <string name="g11"> Al Aqaba </string>
+    <string name="g12"> Ma"'"an </string>
+    <string name="about_the_bank"> About the Bank </string>
+
+    <string name="The_main_branch"> The main branch </string>
+    <string name="Makkah_street_branch"> (ATM) Makkah street Branch </string>
+    <string name="circle_branch"> 6th Circle branch </string>
+
+    <string name="Jabal_Al_Hussein_branch"> Jabal Al Hussein branch</string>
+    <string name="Medical_City_branch"> Medical City Branch </string>
+    <string name="Ash_Shumaysani_branch"> Ash Shumaysani Branch </string>
+    <string name="Marka_branch"> Marka Branch</string>
+    <string name="Mecca_Mall_branch"> Mecca Mall Branch</string>
+    <string name="City_Mall_branch"> City Mall Branch </string>
+    <string name="Downtown_branch"> (ATM) Downtown Amman Branch </string>
+
+    <string name="Khelda_ATM"> (ATM) Khelda Branch</string>
+    <string name="Khilda_branch"> Khilda Branch </string>
+
+    <string name="Abdoun_branch"> Abdoun Branch </string>
+    <string name="Al_Abdali_branch"> Al Abdali Branch</string>
+    <string name="Al_Jubeiha_branch"> Al Jubeiha Branch </string>
+
+    <string name="Marj_Al_Hamam_branch"> Marj Al Hamam Branch </string>
+    <string name="Al_Wehdat_branch"> Al Wehdat Branch </string>
+    <string name="Wadi_Saqra_branch"> Wadi Saqra Branch </string>
+    <string name="Al_Swaifyeh_branch"> Al Swaifyeh Branch </string>
+    <string name="Taj_Mall_branch">Taj Mall Branch </string>
+    <string name="Tareq_branch"> Tareq Branch </string>
+    <string name="Free_Zones_Corporation_Co_branch"> Free Zones Corporation Co Branch</string>
+
+    <string name="Tabarbour_branch"> Tabarbour Branch </string>
+    <string name="Al_Rashid_branch"> Al Rashid Branch </string>
+    <string name="Arifa_Mall_branch"> Arifa Mall Branch </string>
+    <string name="Jabal_Al_Naser_branch"> Jabal Al Naser Branch </string>
+    <string name="Al_Gardens_ATM">(ATM) Al Gardens Branch</string>
+    <string name="Al_Gardens_branch">Al Gardens Branch</string>
+
+    <string name="Al_Mafraq_branch">Al Mafraq Branch </string>
+    <string name="Az_Zarqa_branch"> Az"'"Zarqa Branch </string>
+    <string name="Irbid_branch"> Irbid Branch </string>
+    <string name="Ajlun_branch"> Ajlun Branch</string>
+    <string name="Jarash_branch"> Jarash Branch </string>
+    <string name="Al_Aqaba_branch"> Al-Aqaba Branch </string>
+    <string name="Maan_branch"> Ma"'"an Branch</string>
+    <string name="Al_Balqa_branch"> Al-Balqa Branch </string>
+
+
+    <string name="Jabal_Amman_branch"> Jabal Amman Branch </string>
+    <string name="Al_Muqabalayn_branch"> Al Muqabalayn Branch </string>
+    <string name="Rabya_branch"> Rabya Branch </string>
+    <string name="Al_Bayader_branch"> Al Bayader Branch </string>
+    <string name="Avenue_Mall_branch"> Avenue Mall Branch </string>
+    <string name="As_Saadeh_branch"> As Saadeh Branch </string>
+    <string name="New_Zarqa_branch"> New Zarqa Branch </string>
+    <string name="City_Center_branch"> City Center Branch</string>
+    <string name="Al_Hashimi_branch"> Al-Hashimi Branch </string>
+    <string name="ST_Abdullah_ATM">(ATM) K. Abdullah Bin Al-Hussein ST Branch</string>
+
+    <string name="Shafa_Badran_branch"> Shafa Badran Branch </string>
+    <string name="Pavilion_Mall_branch"> Pavilion Mall Branch </string>
+    <string name="Sweileh_branch"> Sweileh Branch </string>
+    <string name="Al_Lweibdeh_branch"> Al Lweibdeh Branch </string>
+    <string name="Salheyah_ATM"> (ATM) Salheyah Branch </string>
+    <string name="Balama_branch"> Balama Branch </string>
+    <string name="Western_Zarqa_branch"> Western Zarqa Branch </string>
+    <string name="Awajan_branch"> Awajan Branch </string>
+    <string name="Bani_Kinanah_branch"> Bani Kinanah Branch </string>
+    <string name="Teeba_branch"> Teeba Branch </string>
+    <string name="Der_Abi_Saeed_branch">Der Abi Saeed Branch </string>
+    <string name="Irbid_City_Center_branch"> Irbid City Center Branch </string>
+    <string name="Al_Husun_branch"> Al-Husun Branch </string>
+    <string name="Palestine_St_branch"> Palestine St. Branch </string>
+    <string name="Edoun_branch"> Edoun Branch </string>
+    <string name="Al_Hashemi_branch"> Al Hashemi Branch</string>
+    <string name="Baghdad_branch"> Baghdad St. Branch</string>
+    <string name="AlMarj_branch"> AlMarj Branch </string>
+    <string name="Al_Qasser_branch"> Al Qasser Branch </string>
+    <string name="Mutah_branch"> Mu"'"tah Branch </string>
+    <string name="Anjara_branch"> Anjara Branch </string>
+    <string name="Ibbin_branch"> Ibbin Branch </string>
+    <string name="Ein_Al_Basha_branch"> Ein Al-Basha Branch </string>
+    <string name="Shuna_branch">  Shuna Branch </string>
+    <string name="Dayr_Alla_branch"> Dayr "'"Allah Branch</string>
+    <string name="As_Salt_branch"> As-Salt Branch </string>
+    <string name="Malih_branch"> Malih Branch</string>
+    <string name="Madaba_branch"> Madaba Branch </string>
+    <string name="Al_Shifaa_branch"> Al Shifa"'"a Branch </string>
+    <string name="Al_Hasa_branch">  Al-Hasa Branch</string>
+    <string name="Al_Tafilah_branch"> Al Tafilah Branch</string>
+    <string name="Ayl_ATM"> (ATM) Ayl Branch </string>
+    <string name="Wadi_Musa_branch"> Wadi Musa Branch </string>
+    <string name="Abdallah_Ghosheh_St._branch"> Abdallah Ghosheh St. Branch</string>
+    <string name="Al_Quds_Street_branch"> Al-Quds Street branch </string>
+    <string name="Al_Madina_branch"> Al Madina Branch </string>
+    <string name="Dabouq_branch">  Dabouq Branch </string>
+    <string name="Majdi_Mall_ATM"> (ATM) Majdi Mall Branch</string>
+    <string name="Ghosheh_Commercial_Complex_branch"> Ghosheh Commercial Complex Branch</string>
+    <string name="Fuheis_branch"> Fuheis Braanch</string>
+    <string name="Zahran_branch"> Zahran Branch</string>
+    <string name="K_Abdulla_Bin_Al_Hussain_St"> K. Abdulla Bin Al-Hussain St. Branch</string>
+    <string name="Um_Uthaina_branch"> Um Uthaina Branch </string>
+    <string name="Ibn_Khaldoun_ATM"> (ATM) Ibn Khaldoun Branch </string>
+    <string name="Mecca_Street_branch"> Mecca Street Business Center Branch</string>
+    <string name="BAU_branch"> Al-Balqa Applied University Branch </string>
+    <string name="Al_Salt_branch"> Al-Salt Branch </string>
+    <string name="Deir_Alla_Branch"> Deir Alla Branch </string>
+    <string name="Al_Salt_Gate_branch"> Al-Salt Gate Branch </string>
+    <string name="Al_Karak_branch"> Al Karak Branch </string>
+    <string name="Maan_atm"> (ATM) Ma"'"an </string>
+    <string name="Safeway_Aqaba_atm"> (ATM) Safeway Aqaba </string>
+    <string name="Arabella_Mall_atm"> (ATM) Arabella Mall </string>
+    <string name="Hashmi_st_Branch"> Hashmi st. Branch </string>
+    <string name="Ramtha_Branch">Al Ramtha Branch </string>
+    <string name="Wadi_As_Seir_branch"> Wadi As-Seir Branch </string>
+    <string name="st_Cir_branch"> 1st Cir. Branch </string>
+    <string name="rd_Cir_atm">(ATM) 3rd Cir. Branch</string>
+    <string name="Al_Quwaysimah_branch"> Al Quwaysimah Branch </string>
+    <string name="Nuzha_Cir_branch"> Nuzha Cir Branch</string>
+    <string name="Jabal_Al_Lweibdeh_branch"> Jabal Al Lweibdeh Branch </string>
+    <string name="Abu_Alanda_branch"> Abu Alanda Branch </string>
+    <string name="Al_Madina_Al_Monawara_St_branch"> Al-Madina Al-Monawara St. Branch</string>
+    <string name="Al_Yarmouk_St_branch"> Al Yarmouk St. Branch </string>
+    <string name="Abu_Nseir_branch"> Abu Nseir Branch </string>
+    <string name="Al_Yasmin_branch"> Al Yasmin Branch </string>
+    <string name="Russeifa_branch"> Russeifa Branch</string>
+    <string name="Wasfi_st_branch"> Wasfi Al Tal St. Branch</string>
+    <string name="Yajouz_branch"> Yajouz Branch</string>
+    <string name="Al_Husoun_St_branch"> Al Husoun St. Branch</string>
+    <string name="Madinat_Al_Hussein_branch"> Madinat Al Hussein Branch </string>
+    <string name="An_Nuzha_St_branch"> An-Nuzha St. Branch</string>
+    <string name="Tla_al_Ali_branch"> Tla al-Ali Branch </string>
+    <string name="King_Hussein_Medical_Center_branch"> King Hussein Medical Center Branch</string>
+    <string name="Dair_Ghbar_branch"> Dair Ghbar Branch</string>
+    <string name="Hai_Nazzal_branch"> Hai-Nazzal Branch</string>
+    <string name="Al_Salam_branch"> Al Salam Branch </string>
+    <string name="Al_Ashrafyeh_branch"> Al Ashrafyeh Branch </string>
+    <string name="JRTV_branch"> JRTV | Jordan Radio and Television Corporation Branch</string>
+    <string name="Al_Jwaideh_branch"> Al Jwaideh Branch </string>
+    <string name="Naur_branch"> Na"'"ur Branch</string>
+    <string name="Sahab_branch"> Sahab Branch</string>
+    <string name="Al_Muwaqqar_branch"> Al-Muwaqqar Branch</string>
+    <string name="Qasr_Shabeeb_branch"> Qasr Shabeeb Branch </string>
+    <string name="Maasom_branch"> Ma"'"asom Branch</string>
+    <string name="Al_Azraq_Al_Shamaly_branch"> Al-Azraq Al-Shamaly Branch</string>
+    <string name="Yarmouk_branch"> Yarmouk Branch</string>
+    <string name="Dome_Circle_branch"> Dome Circle Branch</string>
+    <string name="Hakama_branch"> Hakama Branch</string>
+    <string name="North_Shuna_branch"> North Shuna Branch </string>
+    <string name="Tuck_branch"> Tuck Branch</string>
+    <string name="Kufranjah_branch"> Kufranjah Branch</string>
+    <string name="Petra_branch"> Petra Branch</string>
+    <string name="Shobak_branch"> Shobak Branch</string>
+    <string name="Baqa_branch"> Baq"'"a Branch</string>
+    <string name="title_activity_national__bank_of__kuwait">National_Bank_of_Kuwait</string>
+
+    <!-- لمياء -->
+
+
+    <string name="title_activity_a_m_m_a_n">Map</string>
+    <string name="title_activity_central__bank_of__jordan">Map</string>
+    <string name="title_activity_arab__bank">Map</string>
+    <string name="title_activity_arab__bank__amman">Map</string>
+    <string name="title_activity_a_t_m__amman">Map</string>
+    <string name="title_activity_arab__bank__amman2">Map</string>
+    <string name="title_activity_madaba">Map</string>
+    <string name="title_activity_amman__a_t_m2">Map</string>
+    <string name="title_activity_amman__a_t_m3">Map</string>
+    <string name="title_activity_princess__raya__amman">Map</string>
+    <string name="title_activity_a_m_m_a_n4">Map</string>
+    <string name="title_activity_the_all_arab_bank">Map</string>
+    <string name="title_activity_meccamall">Map</string>
+    <string name="title_activity_al_zarqa">Map</string>
+    <string name="title_activity_al_hashme">Map</string>
+    <string name="title_activity_al__sultan">Map</string>
+    <string name="title_activity_huwaiti">Map</string>
+    <string name="title_activity_bab__al__wad">Map</string>
+    <string name="title_activity_russifah">Map</string>
+    <string name="title_activity_sayeda__zainab">Map</string>
+    <string name="title_activity_madina__al_munawwara">Map</string>
+    <string name="title_activity_bassam__qaraqeh">Map</string>
+    <string name="title_activity_ammana">Map</string>
+    <string name="title_activity_ammanb">Map</string>
+    <string name="title_activity_ammanc">Map</string>
+    <string name="title_activity_ammand">Map</string>
+    <string name="title_activity_ammane">Map</string>
+    <string name="title_activity_ammanf">Map</string>
+    <string name="title_activity_ammang">Map</string>
+    <string name="title_activity_ammanh">Map</string>
+    <string name="title_activity_ammani">Map</string>
+    <string name="title_activity_ammanj">Map</string>
+    <string name="title_activity_prince__mohammad__al__mafraq">Map</string>
+    <string name="title_activity_al__hashimi__al__mafraq">Map</string>
+    <string name="title_activity_jadara_university_irbid">Map</string>
+    <string name="title_activity_sahat__al__malek__faisal_amman">Map</string>
+    <string name="title_activity_consolidated__consultants__engineering">Map</string>
+    <string name="title_activity_arab__bank__irbid">Map</string>
+    <string name="title_activity_arab__bank__irbid2">Map</string>
+    <string name="title_activity_near__thaqafa__circle__irbid">Map</string>
+    <string name="title_activity_a_t_m___irbid">Map</string>
+    <string name="title_activity_arab__bank__a_t_m__irbid">Map</string>
+    <string name="title_activity_arab__bank__hashemite__university">Map</string>
+    <string name="title_activity_russeifa">Map</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="information">information</string>
+</resources>

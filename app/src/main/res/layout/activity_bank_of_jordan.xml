@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:background="@color/design_default_color_background"
+    android:orientation="vertical"
+    tools:context=".bank_of_jordan">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="5dp"
+        android:gravity="center"
+        android:text="@string/Bank_Of_Jordan"
+        android:textColor="@color/graydark"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="124dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:contentDescription="@string/Bank_Of_Jordan"
+        app:srcCompat="@drawable/boj_logo" />
+
+    <Button
+        android:layout_width="250dp"
+        android:layout_height="35dp"
+        android:layout_gravity="center"
+        android:onClick="WEBSITE"
+        android:text="@string/website"
+        android:textColor="@android:color/holo_red_dark"
+        android:textStyle="bold"
+        app:backgroundTint="#AEF6C7C7"
+        tools:ignore="OnClick,UsingOnClickInXml" />
+
+    <Button
+        android:layout_width="250dp"
+        android:layout_height="35dp"
+        android:layout_gravity="center"
+        android:onClick="about_the_bank"
+        android:text="@string/about_the_bank"
+        android:textColor="@android:color/holo_red_dark"
+        android:textStyle="bold"
+        app:backgroundTint="#AEF6C7C7"
+        tools:ignore="OnClick,UsingOnClickInXml" />
+
+    <Button
+        android:layout_width="250dp"
+        android:layout_height="35dp"
+        android:layout_gravity="center"
+        android:onClick="back"
+        android:text="@string/back"
+        android:textColor="@android:color/holo_red_dark"
+        android:textStyle="bold"
+        app:backgroundTint="#AEF6C7C7"
+        tools:ignore="OnClick,UsingOnClickInXml" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="5dp"
+        android:gravity="center"
+        android:text="@string/list_of_g"
+        android:textColor="@android:color/black"
+        android:textSize="15sp"
+        android:textStyle="bold" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fillViewport="false">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <!-- activity name :: amman_boj -->
+            <Button
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="3dp"
+                android:gravity="center"
+                android:onClick="AMMAN"
+                android:text="@string/g1"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                app:backgroundTint="#F0E40707"
+                tools:ignore="OnClick,UsingOnClickInXml" />
+
+            <!-- activity name :: mafraq_boj -->
+            <Button
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="3dp"
+                android:gravity="center"
+                android:onClick="Al_Mafraq"
+                android:text="@string/g2"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                app:backgroundTint="#F0E40707"
+                tools:ignore="OnClick,UsingOnClickInXml" />
+
+            <!-- activity name :: az_zarqa_boj -->
+            <Button
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="3dp"
+                android:gravity="center"
+                android:onClick="Az_Zarqa"
+                android:text="@string/g3"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                app:backgroundTint="#F0E40707"
+                tools:ignore="UsingOnClickInXml" />
+
+            <!-- activity name :: irbid_boj -->
+            <Button
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="3dp"
+                android:gravity="center"
+                android:onClick="Irbid"
+                android:text="@string/g4"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                app:backgroundTint="#F0E40707"
+                tools:ignore="OnClick,UsingOnClickInXml" />
+
+            <!-- activity name :: al_karak_boj -->
+            <Button
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="3dp"
+                android:gravity="center"
+                android:onClick="Al_Karak"
+                android:text="@string/g5"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                app:backgroundTint="#F0E40707"
+                tools:ignore="OnClick,UsingOnClickInXml" />
+
+            <!-- activity name :: al_ajlun_boj -->
+            <Button
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="3dp"
+                android:gravity="center"
+                android:onClick="Ajlun"
+                android:text="@string/g6"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                app:backgroundTint="#F0E40707"
+                tools:ignore="UsingOnClickInXml" />
+
+            <Button
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="3dp"
+                android:gravity="center"
+                android:onClick="Jarash"
+                android:text="@string/g7"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                app:backgroundTint="#F0E40707"
+                tools:ignore="UsingOnClickInXml" />
+
+            <!-- activity name :: al_balqa_boj -->
+            <Button
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="3dp"
+                android:gravity="center"
+                android:onClick="Al_Balqa"
+                android:text="@string/g8"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                app:backgroundTint="#F0E40707"
+                tools:ignore="OnClick,UsingOnClickInXml" />
+
+            <Button
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="3dp"
+                android:gravity="center"
+                android:onClick="Madaba"
+                android:text="@string/g9"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                app:backgroundTint="#F0E40707"
+                tools:ignore="UsingOnClickInXml" />
+
+            <Button
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="3dp"
+                android:gravity="center"
+                android:onClick="Al_Tafilah"
+                android:text="@string/g10"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                app:backgroundTint="#F0E40707"
+                tools:ignore="UsingOnClickInXml" />
+
+            <!-- activity name :: al_aqaba_boj -->
+            <Button
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="3dp"
+                android:gravity="center"
+                android:onClick="Al_Aqaba"
+                android:text="@string/g11"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                app:backgroundTint="#F0E40707"
+                tools:ignore="UsingOnClickInXml" />
+
+            <!-- activity name :: maan_boj -->
+            <Button
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="3dp"
+                android:gravity="center"
+                android:onClick="Maan"
+                android:text="@string/g12"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                app:backgroundTint="#F0E40707"
+                tools:ignore="OnClick,UsingOnClickInXml" />
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
